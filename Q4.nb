@@ -1,0 +1,151 @@
+(* Content-type: application/vnd.wolfram.cdf.text *)
+
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*************************************************************************)
+(*                                                                       *)
+(*                                                                       *)
+(*  This file was created under the Wolfram Enterprise licensing terms.  *)
+(*                                                                       *)
+(*       For additional information concerning CDF licensing see:        *)
+(*                                                                       *)
+(*        www.wolfram.com/cdf/adopting-cdf/licensing-options.html        *)
+(*                                                                       *)
+(*                                                                       *)
+(*                                                                       *)
+(*************************************************************************)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[      1060,         20]
+NotebookDataLength[      3979,        128]
+NotebookOptionsPosition[      4249,        124]
+NotebookOutlinePosition[      4650,        140]
+CellTagsIndexPosition[      4607,        137]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["\:0628\:062e\:0634 \:0686\:0647\:0627\:0631\:0645",
+ FontFamily->"Arial",
+ FontSize->24,
+ FontColor->RGBColor[1., 0., 0.]]], "Text",
+ CellChangeTimes->{
+  3.9522767795697613`*^9},ExpressionUUID->"b6257556-e545-d149-bc03-\
+e383509c2e6d"],
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"E", "^", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "3"}], "t"}], ")"}]}], " ", 
+       RowBox[{"Cos", "[", 
+        RowBox[{"Pi", " ", 
+         RowBox[{"t", " ", "/", "2"}]}], "]"}]}], " ", "+", " ", 
+      RowBox[{"UnitTriangle", "[", 
+       RowBox[{
+        RowBox[{"t", "/", "2"}], " ", "-", " ", "1"}], "]"}]}], ")"}], " ", 
+    RowBox[{
+     RowBox[{"DiracDelta", "'"}], "[", 
+     RowBox[{"t", " ", "-", " ", "0.5"}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", " ", ",", 
+     RowBox[{"-", "100"}], " ", ",", " ", "100"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{
+  3.952276835250086*^9},ExpressionUUID->"266ce00a-94ed-264b-a55a-\
+d1c9f8c19ba0"],
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"t", "^", "2"}], " ", "+", " ", "2"}], ")"}], 
+     RowBox[{
+      RowBox[{"DiracDelta", "''"}], "[", 
+      RowBox[{"t", "+", "1"}], "]"}]}], " ", "+", " ", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"E", "^", 
+        RowBox[{"(", 
+         RowBox[{"-", 
+          RowBox[{"Abs", "[", "t", "]"}]}], ")"}]}], " ", "+", " ", 
+       RowBox[{"t", "^", "2"}], " ", "+", " ", "2"}], " ", ")"}], " ", 
+     RowBox[{"DiracDelta", "[", 
+      RowBox[{
+       RowBox[{"E", "^", 
+        RowBox[{"(", 
+         RowBox[{"-", 
+          RowBox[{"Abs", "[", "t", "]"}]}], ")"}]}], " ", "+", " ", 
+       RowBox[{"t", "^", "2"}], " ", "+", " ", "1"}], "]"}]}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", " ", ",", 
+     RowBox[{"-", "100"}], " ", ",", " ", "100"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{
+  3.9522768496490574`*^9},ExpressionUUID->"01d8cc87-9622-d746-809f-\
+dbe89f9c6d30"],
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"t", "^", "2"}], " ", "+", " ", "1"}], ")"}], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"DiracDelta", "'"}], "[", 
+       RowBox[{
+        RowBox[{"2", "t"}], " ", "-", " ", "6"}], "]"}], " ", "+", " ", 
+      RowBox[{"DiracDelta", "[", 
+       RowBox[{
+        RowBox[{"t", "^", "2"}], " ", "-", " ", "1"}], "]"}]}], ")"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", " ", ",", "0", " ", ",", " ", "100"}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{
+  3.952276865422188*^9},ExpressionUUID->"4eef634e-0ab3-5947-b5bc-\
+f33dfadde0e6"]
+},
+WindowSize->{1268, 640},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"14.2 for Microsoft Windows (64-bit) (December 26, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"1a5182e6-54a8-6541-ab28-d80b41322aa2"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[1460, 33, 260, 6, 41, "Text",ExpressionUUID->"b6257556-e545-d149-bc03-e383509c2e6d"],
+Cell[1723, 41, 814, 25, 28, "Input",ExpressionUUID->"266ce00a-94ed-264b-a55a-d1c9f8c19ba0"],
+Cell[2540, 68, 1029, 31, 28, "Input",ExpressionUUID->"01d8cc87-9622-d746-809f-dbe89f9c6d30"],
+Cell[3572, 101, 673, 21, 28, "Input",ExpressionUUID->"4eef634e-0ab3-5947-b5bc-f33dfadde0e6"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

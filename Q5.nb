@@ -1,0 +1,388 @@
+(* Content-type: application/vnd.wolfram.cdf.text *)
+
+(*** Wolfram CDF File ***)
+(* http://www.wolfram.com/cdf *)
+
+(* CreatedBy='Wolfram 14.2' *)
+
+(*************************************************************************)
+(*                                                                       *)
+(*                                                                       *)
+(*  This file was created under the Wolfram Enterprise licensing terms.  *)
+(*                                                                       *)
+(*       For additional information concerning CDF licensing see:        *)
+(*                                                                       *)
+(*        www.wolfram.com/cdf/adopting-cdf/licensing-options.html        *)
+(*                                                                       *)
+(*                                                                       *)
+(*                                                                       *)
+(*************************************************************************)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[      1060,         20]
+NotebookDataLength[     12697,        367]
+NotebookOptionsPosition[     12673,        360]
+NotebookOutlinePosition[     13074,        376]
+CellTagsIndexPosition[     13031,        373]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["\:0628\:062e\:0634 \:067e\:0646\:062c\:0645",
+ FontFamily->"Arial",
+ FontSize->24,
+ FontColor->RGBColor[1., 0., 0.]]], "Text",
+ CellChangeTimes->{
+  3.9522769756947346`*^9},ExpressionUUID->"68ff07a5-6587-ef46-a580-\
+e751b2f498ca"],
+
+Cell[BoxData[{
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     FractionBox[
+      SuperscriptBox[
+       RowBox[{"Sinc", "[", 
+        FractionBox["t", "e"], "]"}], "2"], "e"], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", 
+       RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"e", ",", "1", ",", 
+     RowBox[{"-", "0.1`"}], ",", "0.001"}], "}"}], ",", 
+   RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{"Integrate", "[", 
+    RowBox[{
+     FractionBox[
+      SuperscriptBox[
+       RowBox[{"Sinc", "[", 
+        FractionBox["t", "e"], "]"}], "2"], "e"], " ", ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"t", " ", ",", " ", 
+       RowBox[{"-", 
+        RowBox[{"Sqrt", "[", "e", "]"}]}], " ", ",", " ", 
+       RowBox[{"Sqrt", "[", "e", "]"}]}], "}"}]}], "]"}], " ", ",", " ", 
+   RowBox[{"e", "->", " ", "0"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", "  ", 
+  RowBox[{"\"\<sinc.gif\>\"", ",", 
+   RowBox[{"Animate", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       FractionBox[
+        SuperscriptBox[
+         RowBox[{"Sinc", "[", 
+          FractionBox["t", "e"], "]"}], "2"], "e"], ",", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", 
+         RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+       RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"e", ",", "1", ",", 
+       RowBox[{"-", "0.1`"}], ",", "0.001"}], "}"}], ",", 
+     RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], " ", ",", " ", 
+   RowBox[{"\"\<AnimationRepetition\>\"", " ", "->", " ", "Infinity"}]}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{
+  3.9522770026506615`*^9},ExpressionUUID->"471018fe-1c42-5e4f-a52c-\
+ee3cdb933942"],
+
+Cell[BoxData[{
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"UnitBox", "[", 
+       RowBox[{"t", "/", 
+        RowBox[{"(", 
+         RowBox[{"4", "e"}], ")"}]}], "]"}], 
+      RowBox[{"4", "e"}]], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", 
+       RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"e", ",", "1", ",", 
+     RowBox[{"-", "0.1`"}], ",", "0.001"}], "}"}], ",", 
+   RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{"Integrate", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"UnitBox", "[", 
+       RowBox[{"t", "/", 
+        RowBox[{"(", 
+         RowBox[{"4", "e"}], ")"}]}], "]"}], 
+      RowBox[{"4", "e"}]], " ", ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"t", " ", ",", " ", 
+       RowBox[{
+        RowBox[{"-", "2"}], "e"}], " ", ",", " ", 
+       RowBox[{"2", "e"}]}], "}"}]}], "]"}], " ", ",", " ", 
+   RowBox[{"e", "->", " ", "0"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", "  ", 
+  RowBox[{"\"\<unitbox.gif\>\"", ",", 
+   RowBox[{"Animate", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       FractionBox[
+        RowBox[{"UnitBox", "[", 
+         RowBox[{"t", "/", 
+          RowBox[{"(", 
+           RowBox[{"4", "e"}], ")"}]}], "]"}], 
+        RowBox[{"4", "e"}]], ",", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", 
+         RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+       RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"e", ",", "1", ",", 
+       RowBox[{"-", "0.2"}], ",", "0.001"}], "}"}], ",", 
+     RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], " ", ",", " ", 
+   RowBox[{"\"\<AnimationRepetition\>\"", " ", "->", " ", "Infinity"}]}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{
+  3.9522770387901*^9},ExpressionUUID->"452b7949-4edc-9046-99d0-b04e1539011b"],
+
+Cell[BoxData[{
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"UnitTriangle", "[", 
+       RowBox[{"t", "/", "e"}], "]"}], "e"], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", 
+       RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"e", ",", "1", ",", 
+     RowBox[{"-", "0.2"}], ",", "0.001"}], "}"}], ",", 
+   RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{"Integrate", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"UnitTriangle", "[", 
+       RowBox[{"t", "/", "e"}], "]"}], "e"], " ", ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"t", " ", ",", " ", 
+       RowBox[{"-", "e"}], " ", ",", " ", "e"}], "}"}]}], "]"}], " ", ",", 
+   " ", 
+   RowBox[{"e", "->", " ", "0"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", "  ", 
+  RowBox[{"\"\<unitteringle.gif\>\"", ",", 
+   RowBox[{"Animate", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       FractionBox[
+        RowBox[{"UnitTriangle", "[", 
+         RowBox[{"t", "/", "e"}], "]"}], "e"], ",", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", 
+         RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+       RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"e", ",", "1", ",", 
+       RowBox[{"-", "0.2"}], ",", "0.001"}], "}"}], ",", 
+     RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], " ", ",", " ", 
+   RowBox[{"\"\<AnimationRepetition\>\"", " ", "->", " ", "Infinity"}]}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{
+  3.9522778710122776`*^9},ExpressionUUID->"324193c8-ad30-0e40-80f7-\
+7916a4f5a7fa"],
+
+Cell[BoxData[{
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       RowBox[{"E", "^", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "t"}], "/", "e"}], ")"}]}], " ", 
+       RowBox[{"UnitStep", "[", "t", "]"}]}], "e"], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", 
+       RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"e", ",", "1", ",", 
+     RowBox[{"-", "0.1`"}], ",", "0.001"}], "}"}], ",", 
+   RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Limit", "[", 
+  RowBox[{
+   RowBox[{"Integrate", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       RowBox[{"E", "^", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "t"}], "/", "e"}], ")"}]}], " ", 
+       RowBox[{"UnitStep", "[", "t", "]"}]}], "e"], " ", ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"t", " ", ",", " ", "0", ",", " ", 
+       RowBox[{"Sqrt", "[", "e", "]"}]}], "}"}]}], "]"}], " ", ",", " ", 
+   RowBox[{"e", "->", " ", "0"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", "  ", 
+  RowBox[{"\"\<exponential.gif\>\"", ",", 
+   RowBox[{"Animate", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       FractionBox[
+        RowBox[{
+         RowBox[{"E", "^", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "t"}], "/", "e"}], ")"}]}], " ", 
+         RowBox[{"UnitStep", "[", "t", "]"}]}], "e"], ",", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", 
+         RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+       RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"e", ",", "1", ",", 
+       RowBox[{"-", "0.2"}], ",", "0.001"}], "}"}], ",", 
+     RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], " ", ",", " ", 
+   RowBox[{"\"\<AnimationRepetition\>\"", " ", "->", " ", "Infinity"}]}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{
+  3.9522779020225105`*^9},ExpressionUUID->"b2be1caf-bd1b-f740-97a2-\
+212c961399fc"],
+
+Cell[BoxData[{
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"Sin", "[", 
+       RowBox[{"t", " ", "/", " ", 
+        RowBox[{"Abs", "[", "e", "]"}]}], "]"}], 
+      RowBox[{"Pi", " ", "t"}]], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", 
+       RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"e", ",", "1", ",", 
+     RowBox[{"-", "0.1`"}], ",", "0.001"}], "}"}], ",", 
+   RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", "  ", 
+  RowBox[{"\"\<X5.gif\>\"", ",", 
+   RowBox[{"Animate", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       FractionBox[
+        RowBox[{"Sin", "[", 
+         RowBox[{"t", " ", "/", " ", 
+          RowBox[{"Abs", "[", "e", "]"}]}], "]"}], 
+        RowBox[{"Pi", " ", "t"}]], ",", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", 
+         RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+       RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"e", ",", "1", ",", 
+       RowBox[{"-", "0.1`"}], ",", "0.001"}], "}"}], ",", 
+     RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], " ", ",", " ", 
+   RowBox[{"\"\<AnimationRepetition\>\"", " ", "->", " ", "Infinity"}]}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{
+  3.952277943735773*^9},ExpressionUUID->"11588828-a419-1641-a22a-\
+d69f80f7bf87"],
+
+Cell[BoxData[{
+ RowBox[{"Animate", "[", 
+  RowBox[{
+   RowBox[{"Plot", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"Abs", "[", "e", "]"}], 
+      RowBox[{"Pi", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"e", "^", "2"}], " ", "+", " ", 
+         RowBox[{"t", "^", "2"}]}], ")"}]}]], ",", 
+     RowBox[{"{", 
+      RowBox[{"t", ",", 
+       RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+     RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"e", ",", "1", ",", 
+     RowBox[{"-", "0.1`"}], ",", "0.001"}], "}"}], ",", 
+   RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"Export", "[", "  ", 
+  RowBox[{"\"\<X6.gif\>\"", ",", 
+   RowBox[{"Animate", "[", 
+    RowBox[{
+     RowBox[{"Plot", "[", 
+      RowBox[{
+       FractionBox[
+        RowBox[{"Abs", "[", "e", "]"}], 
+        RowBox[{"Pi", " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"e", "^", "2"}], " ", "+", " ", 
+           RowBox[{"t", "^", "2"}]}], ")"}]}]], ",", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", 
+         RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+       RowBox[{"Exclusions", "\[Rule]", "None"}]}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"e", ",", "1", ",", 
+       RowBox[{"-", "0.1`"}], ",", "0.001"}], "}"}], ",", 
+     RowBox[{"AnimationRunning", "\[Rule]", "True"}]}], "]"}], ",", " ", 
+   RowBox[{"\"\<AnimationRepetition\>\"", " ", "->", " ", "Infinity"}]}], 
+  "]"}]}], "Input",
+ CellChangeTimes->{
+  3.952278016246071*^9, {3.952278054300085*^9, 
+   3.9522780572629185`*^9}},ExpressionUUID->"6b68d59f-2c01-a244-9a2f-\
+73d2e1007b9f"]
+},
+WindowSize->{1268, 640},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"14.2 for Microsoft Windows (64-bit) (December 26, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"204857e9-9552-1a4b-a23d-c18239cab3fd"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[1460, 33, 254, 6, 41, "Text",ExpressionUUID->"68ff07a5-6587-ef46-a580-e751b2f498ca"],
+Cell[1717, 41, 1894, 53, 155, "Input",ExpressionUUID->"471018fe-1c42-5e4f-a52c-ee3cdb933942"],
+Cell[3614, 96, 2021, 58, 150, "Input",ExpressionUUID->"452b7949-4edc-9046-99d0-b04e1539011b"],
+Cell[5638, 156, 1769, 49, 150, "Input",ExpressionUUID->"324193c8-ad30-0e40-80f7-7916a4f5a7fa"],
+Cell[7410, 207, 2108, 60, 150, "Input",ExpressionUUID->"b2be1caf-bd1b-f740-97a2-212c961399fc"],
+Cell[9521, 269, 1494, 41, 111, "Input",ExpressionUUID->"11588828-a419-1641-a22a-d69f80f7bf87"],
+Cell[11018, 312, 1651, 46, 116, "Input",ExpressionUUID->"6b68d59f-2c01-a244-9a2f-73d2e1007b9f"]
+}
+]
+*)
+
